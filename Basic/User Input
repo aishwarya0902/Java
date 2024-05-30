@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner scan = new Scanner(System.in);
+	    
+	    int num = scan.nextInt();
+	    scan.nextLine();
+	    String c = scan.nextLine();
+	   // scan.nextLine();
+	   char str = scan.nextLine().charAt(0);
+	   
+	   System.out.println("The Number is " + num + " The string is " + c + " The Character is " + str);
+	   
+	   int num1 = scan.nextInt();
+	   
+	   System.out.println(" " +" " + num1 + " "+" " );
+	   System.out.println(" " + num1 + " " + " " + num1 + " ");
+	   System.out.println( num1 + " " + " " + num1 + " "+" " + num1 + " ");
+	   
+	}
+}
